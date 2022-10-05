@@ -1,0 +1,113 @@
+.nav-right {
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 2rem;
+    text-transform: capitalize;
+}
+
+.nav-left {
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 0.3rem;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.nav-right {
+    display: inline-block;
+    margin-top: 0.3em;
+}
+
+.container {
+    font-size: 1.5em;
+    margin: 0vw 6vw;
+    margin-top: 3vh;
+}
+
+
+.common-left {
+    display: inline-block;
+    text-align: center;
+    width: 22vw;
+    background: #5F9EA0;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.common-right {
+    display: inline-block;
+}
+
+.common {
+    display: flex;
+    margin-top: 200px;
+    position: absolute;
+    left: 30%;
+}
+
+img {
+    height: 50vh;
+    width: 23vw;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    padding: 0.5em;
+}
+
+a:hover {
+    background: #7FCF9D;
+    transition: 0.5s;
+}
+
+.bttn {
+    height: 2.5em;
+    width: 7em;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.bttn:hover {
+    background-color: #008080;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: 0px;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {}
+
+    .menu {
+        color: white;
+    }
+
+    .nav-left,
+    .common {
+        display: none;
+        background: #2c3e50;
+    }
+
+    header {
+        background: #2c3e50;
+    }
+}
