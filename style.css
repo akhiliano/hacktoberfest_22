@@ -109,3 +109,33 @@ a:hover {
         background: #2c3e50;
     }
 }
+.top{
+    text-align: center;
+    text-decoration: underline;
+    font-size:2.8rem;
+    color:white;
+}
+.topp{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+    background-image: linear-gradient(to right top, #417fdc, #00a9f8, #00c9d8, #00e188, #a8eb12);
+}
+.img{
+    border-radius: 50%;
+    
+    border:4px solid white
+}
+.myself{
+    color:black;
+    font-size: 2.4rem;
+}
+.p{
+    font-size: 1.8 rem;
+    color: white; 
+}
+.about{
+    color:white;
+    font-size: 1.6rem;
+}
